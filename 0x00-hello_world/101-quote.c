@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - entry
- * Retrun: Retrun 1
+ * Return: Return 1
  */
 int main(void)
 {
