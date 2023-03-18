@@ -10,7 +10,10 @@ int main(void)
 	e = 'e';
 
 	for (low = 'a'; low <= 'z'; low++)
-		if (low != q && low != e)
-			putchar(low);
+	{
+	if (low != q && low != e)
+	putchar(low);
+	}
+	putchar('\n');
 	return (0);
 }
