@@ -6,6 +6,7 @@
 int main(void)
 {
 	char low, q, e;
+
 	q = 'q';
 	e = 'e';
 
