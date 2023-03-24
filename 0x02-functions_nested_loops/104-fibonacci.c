@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-       long i, a = 1, b = 2, c;
+	long i, a = 1, b = 2, c;
 
 	for (i = 1; i <= 98; i++)
 	{
@@ -18,4 +18,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}	
+}
