@@ -6,11 +6,11 @@
 int main(void)
 {
 	int i, b = 2, c;
-	long a = 1;
+	long long a = 1;
 
 	for (i = 1; i <= 50; i++)
 	{
-		printf("%ld, ", a);
+		printf("%lld, ", a);
 		c = a + b;
 		a = b;
 		b = c;
