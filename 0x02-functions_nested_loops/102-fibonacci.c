@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	long long i, b = 2, c, a = 1;
+	long i, b = 2, c, a = 1;
 
 	for (i = 1; i <= 50; i++)
 	{
-		printf("%lld, ", a);
+		printf("%ld, ", a);
 		c = a + b;
 		a = b;
 		b = c;
