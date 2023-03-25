@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line -> prints a straight line
+ * @n: a parameter
  */
 void print_line(int n)
 {
@@ -14,6 +15,7 @@ void print_line(int n)
 		else
 		{
 			_putchar('_');
+			_putchar('\n');
 		}
 	}
 }
