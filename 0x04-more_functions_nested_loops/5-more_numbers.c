@@ -12,6 +12,13 @@ void more_numbers(void)
 		{
 			_putchar(j);
 		}
+		if (i == 10)
+		{
+			_putchar('\n');
+		}
+		else
+		{
 		_putchar('\n');
+		}
 	}
 }
