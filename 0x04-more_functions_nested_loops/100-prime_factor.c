@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	long i, a;
+	int i, a;
 
 	for (i = 1; i < 612852475143; i++)
 	{
@@ -14,6 +14,6 @@ int main(void)
 			a = i;
 		}
 	}
-	printf("%ld\n", a);
+	printf("%d\n", a);
 	return (0);
 }
