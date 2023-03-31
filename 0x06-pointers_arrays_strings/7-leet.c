@@ -16,7 +16,7 @@ char *leet(char *str)
 			if 
 				(str[i1] == leet[i2] ||
 				str[i1] - 32 == leet[i2])
-					str[i1] = i2 + 'e';
+					str[i1] = i2 + '0';
 		}
 		i1++;
 	}
