@@ -11,7 +11,7 @@ char *leet(char *str)
 
 	while (str[i1])
 	{
-		for ( i2 = 0; i2 <= 7; i2++)
+		for (i2 = 0; i2 <= 7; i2++)
 		{
 			if 
 				(str[i1] == leet[i2] ||
