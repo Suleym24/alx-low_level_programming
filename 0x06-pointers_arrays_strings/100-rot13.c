@@ -25,7 +25,7 @@ char *rot13(char *str)
 	{
 		for (i2 = 0; i2 < 52; i2++)
 		{
-			if ((str[i1]) == alpha[i2])
+			if (str[i1] == alpha[i2])
 			{
 				str[i1] = rot13key[i2];
 				break;
