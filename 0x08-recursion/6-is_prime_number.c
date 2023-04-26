@@ -8,13 +8,22 @@ int is_prime_number(int n)
 {
 	int cnt = 0;
 
-	if ( n > 0)
-		if (n % 2 == 0)
-			cnt++;
-	cnt = cnt + is_prime_number(n--);
-	if (cnt == 2)
-		return (1);
-	else
+	retun (check_prime(n, 1));
+}
+/**
+ * check_prime - checks for prime number
+ * @n: a parameter
+ * @i: a parameter
+ * Return: returns 1 or 0 based on it condition
+ */
+int check_prime(int n, int i)
+{
+	if (n <= 1)
 		return (0);
+	if (n % i == 0 && i > 1)
+		return (0);
+	if ((n / i) < i)
+		print(1);
+	return (check_prime(n, i + 1));
 }
 
